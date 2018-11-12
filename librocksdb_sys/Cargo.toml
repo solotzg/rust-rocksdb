@@ -23,8 +23,8 @@ cc = "1.0.3"
 cmake = "0.1"
 
 [dependencies.libz-sys]
-version = "1.0.25"
-features = ["static"]
+git = "https://github.com/busyjay/libz-sys.git"
+branch = "static-link"
 
 [dependencies.bzip2-sys]
 git = "https://github.com/alexcrichton/bzip2-rs.git"
